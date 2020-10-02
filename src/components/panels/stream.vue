@@ -1,21 +1,21 @@
 <template>
 	<panel-wrapper :content-class="['button-grid', 'has-per-row-1', 'overflow-y-auto']">
 		<template slot="name">
-			Stream Status
+			配信・録画状況
 		</template>
 		<DangerousButton
 			:class="[streaming ? 'is-active' : 'is-inactive']"
 			:vibrate="true"
 			@click="setStreaming({status: !streaming})"
 		>
-			Streaming: {{ streamingText }}
+			配信: {{ streamingText }}
 		</DangerousButton>
 		<DangerousButton
 			:class="[recording ? 'is-active' : 'is-inactive']"
 			:vibrate="true"
 			@click="setRecording({status: !recording})"
 		>
-			Recording: {{ recordingText }}
+			録画: {{ recordingText }}
 		</DangerousButton>
 	</panel-wrapper>
 </template>

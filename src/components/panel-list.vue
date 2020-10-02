@@ -27,8 +27,8 @@
 <script>
 const PANELS_INFO = [
 	{
-		name: 'Horizontal Splitter',
-		description: 'Put more panels side by side!',
+		name: '水平切り替えメニュー',
+		description: '右に右にパネルが切り替わります',
 		icon: 'columns',
 		iconSettings: {},
 		type: 'Grid',
@@ -40,8 +40,8 @@ const PANELS_INFO = [
 		}
 	},
 	{
-		name: 'Vertical Splitter',
-		description: 'Stack panels on top of eachother',
+		name: '垂直メニュー',
+		description: '縦にメニューが積まれていきます',
 		icon: 'columns',
 		iconSettings: {
 			rotation: 270
@@ -55,50 +55,50 @@ const PANELS_INFO = [
 		}
 	},
 	{
-		name: 'Scenes Switcher',
-		description: 'Switch the current scene',
+		name: 'シーン切り替え',
+		description: '今のシーンを切り替えます',
 		icon: 'tv',
 		iconSettings: {},
 		type: 'Scenes'
 	},
 	{
-		name: 'Sources List',
-		description: 'Toggle sources on and off',
+		name: '入力ソース一覧',
+		description: '入力ソースのオン・オフを切り替えます',
 		icon: 'video',
 		iconSettings: {},
 		type: 'Sources'
 	},
 	{
-		name: 'Audio Devices',
-		description: 'Toggle Audio Devices on and off',
+		name: '音響デバイス',
+		description: '接続しているマイクなどの音響デバイスを切り替えます',
 		icon: 'volume-up',
 		iconSettings: {},
 		type: 'Mixer'
 	},
 	{
-		name: 'Set Transition',
-		description: 'Set the current transition',
+		name: '画面切り替え効果の選択',
+		description: '画面切り替え効果（トランジション）を選択します',
 		icon: 'chart-bar',
 		iconSettings: {},
 		type: 'Transitions'
 	},
 	{
-		name: 'Set Transition Duration',
-		description: 'Set the current transition duration',
+		name: '画面切り替え効果にかかる時間',
+		description: '画面切り替え効果にかかる時間を設定します',
 		icon: 'clock',
 		iconSettings: {},
 		type: 'Durations'
 	},
 	{
-		name: 'Stream Status',
-		description: 'Manage stream & recording status',
+		name: '配信・録画状況',
+		description: '配信・録画の状況を確かめます',
 		icon: 'dot-circle',
 		iconSettings: {},
 		type: 'Stream'
 	},
 	{
-		name: 'Frame',
-		description: 'Embed any webpage',
+		name: 'iframe埋め込み',
+		description: 'このページにiframeタグを埋め込めます．',
 		icon: 'window-maximize',
 		iconSettings: {},
 		type: 'Iframe'

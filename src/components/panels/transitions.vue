@@ -1,7 +1,7 @@
 <template>
 	<panel-wrapper :content-class="['button-grid', 'has-per-row-1', 'overflow-y-auto']">
 		<template slot="name">
-			Transitions
+			画面切り替え
 		</template>
 
 		<template
@@ -18,7 +18,7 @@
 			/>
 		</template>
 		<template v-else>
-			Transition list is empty! Should minimally have 'Cut' and 'Fade' ... Something is wrong :(
+			トランジションが存在しません．フェードとかそんな感じなのを設定しておいてください．
 		</template>
 	</panel-wrapper>
 </template>

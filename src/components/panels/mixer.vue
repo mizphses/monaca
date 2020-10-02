@@ -1,7 +1,7 @@
 <template>
 	<panel-wrapper :content-class="['overflow-y-auto', 'flex', 'flex-col']">
 		<template slot="name">
-			Mixer
+			ミキサー
 		</template>
 
 		<template
@@ -14,7 +14,7 @@
 			/>
 		</template>
 		<template v-else>
-			Audio Device list is empty? ¯\_(ツ)_/¯
+			オーディオデバイスはどこでしょう？ ¯\_(ツ)_/¯
 		</template>
 	</panel-wrapper>
 </template>

@@ -1,11 +1,11 @@
 <template>
 	<panel-wrapper content-class="flex flex-col">
 		<template slot="name">
-			Sources
+			入力そーす
 		</template>
 
 		<h3 class="p-2 text-center font-bold">
-			{{ currentScene ? currentScene.name : 'Unknown Scene' }}
+			{{ currentScene ? currentScene.name : '不明なシーン' }}
 		</h3>
 		<div
 			v-if="currentScene"
@@ -22,7 +22,7 @@
 			</button>
 		</div>
 		<div v-else>
-			Unknown scene, this should not happen :(
+			不明なシーンです．なんで発生したエラーなのでしょうか... :(
 		</div>
 	</panel-wrapper>
 </template>

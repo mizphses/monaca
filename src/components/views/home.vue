@@ -6,60 +6,60 @@
 
 				<div class="card">
 					<div class="card-title">
-						<h2>Automatic Login</h2>
+						<h2>自動ログイン</h2>
 					</div>
 					<div class="card-content">
 						<p class="mb-2 text-sm">
-							To automatically connect, bookmark this URL with connection info in URL after #!auto (default values can be skipped)
+							URLに#!autoがあれば自動ログインしてもらえます．
 						</p>
-						<label class="label">Current settings:</label>
+						<label class="label">次のリンクをお気に入りに入れましょう！:</label>
 						<a
 							:href="exampleURL"
 							class="block break-all mb-2"
 							@click.prevent="() => {}"
 						>{{ exampleURL }}</a>
 						<p class="text-sm">
-							To include password add &password={password}. Note that all fields can't include &amp; or =
+							パスワードをURLに加えるにはURLの最後に &password={password} を足します．全てのフィールドは &amp; と = を含んではいけません．
 						</p>
 					</div>
 				</div>
 			</div>
 			<div class="md:w-2/3 px-4 py-2">
 				<h1 class="text-3xl mb-2">
-					OBS Tablet Remote
+					Monaca OBSリモコン
 				</h1>
 
 				<p class="mb-2">
-					Control
 					<a
 						href="https://obsproject.com/"
 						target="_blank"
-					>OBS Studio</a>
-					over the network, on any device with a web browser
+					>OBS</a>
+					をWEBブラウザから操作します．
 				</p>
 
 				<div
 					v-if="showHTTPSWarning"
 					class="alert warning"
 				>
-					<h2>Warning: HTTPS Detected</h2>
+					<h2>HTTPSで接続されています！</h2>
 
-					<p>It appears like you have loaded this page over a secure connection. While security is cool, obs websocket plugins don't support it and browsers will block the connection. <a :href="httpURL">Click here to attempt to load http version of this page</a></p>
+					<p>このプログラムの仕様でHTTPSを使用できません．何か言われるかもしれませんが <a :href="httpURL">こっちのページに進んでください</a></p>
 				</div>
 
 				<p class="mb-2">
-					To use OBS Tablet Remote make sure you have installed the <a
+					OBSリモコンを使うには
+					<a
 						href="https://obsproject.com/forum/resources/websocket-plugin.466/"
 						target="_blank"
-					>Websocket Plugin for OBS Studio</a>. This version has been optimised for version <strong>4.6.0</strong> or newer
+					>Websocket Plugin for OBS Studio</a>をインストールしなければなりません．このソフトは <strong>4.6.0</strong> 以降のバージョンに対応しています．
 				</p>
 
 				<h2 class="text-2xl mb-2">
-					Bugs / Feature requests?
+					バグや機能追加の要望
 				</h2>
 
 				<p class="mb-2">
-					Submit new or 👍 existing one at <a
+					元ソフトの方へお願いします→ <a
 						href="https://github.com/t2t2/obs-tablet-remote/issues"
 						target="_blank"
 					>GitHub Issues</a>

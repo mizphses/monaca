@@ -44,3 +44,10 @@
 
 @import 'themes/default.css';
 @import 'themes/dark-blue.css';
+@import 'themes/pure.css';
+
+html, body, div{
+	font-family: 'Inter', fot-udkakugo-large-pr6n, sans-serif !important;
+	font-weight: 500;
+	font-style: normal;
+}

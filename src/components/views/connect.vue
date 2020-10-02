@@ -1,7 +1,7 @@
 <template>
 	<div class="card">
 		<div class="card-title">
-			<h2>{{ needAuth ? 'Password Required' : 'Connect' }}</h2>
+			<h2>{{ needAuth ? 'Password Required' : '接続' }}</h2>
 		</div>
 		<div
 			v-if="error"
@@ -18,7 +18,7 @@
 					<label
 						class="label"
 						for="connect-host"
-					>Host</label>
+					>ホスト（IPアドレス）</label>
 					<input
 						id="connect-host"
 						v-model="host"
@@ -32,7 +32,7 @@
 						class="label"
 						for="connect-port"
 					>
-						Port
+						ポート
 					</label>
 					<input
 						id="connect-port"
@@ -58,7 +58,7 @@
 					<label
 						class="label"
 						for="connect-password"
-					>Password</label>
+					>パスワード</label>
 					<input
 						id="connect-password"
 						v-model="password"

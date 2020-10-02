@@ -1,7 +1,7 @@
 <template>
 	<panel-wrapper :content-class="['button-grid', 'has-per-row-' + perRow, 'overflow-y-auto', 'flex-wrap', 'text-3xl']">
 		<template #name>
-			Scenes
+			シーンセレクト
 		</template>
 
 		<button
@@ -36,7 +36,7 @@
 			</div>
 
 			<h3 class="text-xl mb-2">
-				Transition Scene
+				シーン切り替え
 			</h3>
 			<div class="field">
 				<label
@@ -64,7 +64,7 @@
 				<label
 					:for="`settings-${id}-transition-time`"
 					class="label"
-				>Transition Time</label>
+				>切り替え時間</label>
 				<input
 					:id="`settings-${id}-transition-time`"
 					v-model.number="transitionSeconds"

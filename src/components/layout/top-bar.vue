@@ -1,7 +1,7 @@
 <template>
 	<div class="flex-none color-ui h-8 md:h-12 px-2 flex items-center justify-between leading-none">
 		<div class="mx-2">
-			OBS Remote
+			Monaca OBSリモコン
 		</div>
 		<div class="self-stretch flex-grow" />
 		<button
@@ -91,4 +91,3 @@ export default {
 		}
 	}
 </style>
-

@@ -4,8 +4,8 @@
 		@click="buttonClick"
 	>
 		<span v-if="isPrimed">
-			Click again to confirm
-			<strong v-if="cooldown">(wait 1 sec)</strong>
+			もう一度押して再確認します
+			<strong v-if="cooldown">(1秒待つ)</strong>
 		</span>
 		<slot v-else />
 	</button>

@@ -1,11 +1,11 @@
 <template>
 	<panel-wrapper :content-class="['panel-invalid', 'is-scrollable']">
 		<template slot="name">
-			Unknown Panel
+			不明のパネル
 		</template>
 		<div class="panel-invalid-content">
-			<p>PANEL NOT FOUND</p>
-			<p>Panel type "{{ panel.type }}" not found. Use edit mode to remove this panel.</p>
+			<p>パネルが見つかりません</p>
+			<p>"{{ panel.type }}"は見つかりませんでした．このパネルを外してください．</p>
 		</div>
 	</panel-wrapper>
 </template>

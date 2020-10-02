@@ -9,7 +9,7 @@
 		@touchmove.native="handleResize"
 	>
 		<template #name>
-			{{ isHorizontal ? 'Horizontal' : 'Vertical' }} Splitter
+			{{ isHorizontal ? '水平' : '垂直' }}メニュー
 		</template>
 
 		<template v-for="(panel, id, index) in childPanels">

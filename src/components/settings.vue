@@ -4,7 +4,7 @@
 		@close="showSettings(false)"
 	>
 		<template #title>
-			Global Settings
+			総合設定
 		</template>
 
 		<div class="flex -mx-2">
@@ -13,30 +13,33 @@
 					<label
 						:for="`settings-theme`"
 						class="label"
-					>Theme</label>
+					>テーマ</label>
 					<select
 						:id="`settings-theme`"
 						v-model="theme"
 						class="select"
 					>
 						<option value="default">
-							Default
+							標準
 						</option>
 						<option value="dark-blue">
-							Dark & Blue
+							ダーク・ブルー
+						</option>
+						<option value="pure">
+							ピュア
 						</option>
 					</select>
 				</div>
 			</div>
 			<div class="w-1/2 px-2">
 				<h3 class="text-xl mb-2">
-					Danger Zone
+					一考すべきゾーン
 				</h3>
 				<button
 					class="button is-primary"
 					@click="askForReset"
 				>
-					Reset Layout
+					レイアウトを元に戻す
 				</button>
 			</div>
 		</div>
