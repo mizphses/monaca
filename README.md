@@ -1,6 +1,6 @@
-# OBS Remote Tablet
+# Monaca
 
-OBS Remote UI optimised for tablets, but really it works with any web browser.
+t2t2/obs-tablet-remoteを基にしたOBS Tablet Remoteを日本語化して少し改造しました。
 
 ## Building instructions
 
