@@ -2,7 +2,7 @@
 
 t2t2/obs-tablet-remoteを基にしたOBS Tablet Remoteを日本語化して少し改造しました。
 
-## ビルド設定
+## Build Settings
 
 * Clone the repository
 * Install dependencies `npm install`
